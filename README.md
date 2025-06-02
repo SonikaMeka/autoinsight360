@@ -79,7 +79,7 @@ cd todo-app
 #### 2️⃣ Create the MySQL Database
 Open MySQL and run:
 
-sql
+```sql```
 CREATE DATABASE tododb;
 
 #### 3️⃣ Configure application.properties
