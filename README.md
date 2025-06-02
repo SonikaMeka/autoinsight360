@@ -87,14 +87,14 @@ Edit the file located at src/main/resources/application.properties:
 
 properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/tododb
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.mvc.view.prefix=/WEB-INF/jsp/
-spring.mvc.view.suffix=.jsp
-Replace your_password with your actual MySQL root password.
+- spring.datasource.url=jdbc:mysql://localhost:3306/tododb
+- spring.datasource.username=root
+- spring.datasource.password=your_password
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
+- spring.mvc.view.prefix=/WEB-INF/jsp/
+- spring.mvc.view.suffix=.jsp
+- Replace your_password with your actual MySQL root password.
 
 #### 4️⃣ Build and Run the Project
 ```bash```
